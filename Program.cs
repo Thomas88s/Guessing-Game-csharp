@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-
 
 int SecretNum = new Random().Next(1, 100);
 int NumOfGuess = 0;
@@ -116,7 +112,6 @@ while (NumOfGuessesLeft > 0 || CheatCode == true)
         Console.WriteLine("Why don't you just give up! \nYou Suck!");
         Console.WriteLine("\n Again, Again, Loser?\n");
         UsersGuess = Convert.ToInt32(Console.ReadLine());
-
     }
     else
     {
